@@ -12,6 +12,9 @@ Compilar y correr xv6
 Un programa compuesto de código fuente.
 Un sistema operativo que esta compuesto de un kernel y de aplicaciones del sistema.
 
+## url del commit:
+https://github.com/Luisantonio42/so-gp1/commit/3b17ca22cfcf7091790107481a297e5a286b9afb
+
 ## Que aprendí:
 Al haber realizado esta práctica pude observar de manera detallada el proceso que se lleva para la compilación de un programa, voy a enfatizar el hecho de que nunca había trabajado de esta forma por lo que, el máximo grado de complejidad al que me había enfrentado fue el compilar un archivo de java. Sin embargo aquí fue diferente, en primera porque ya estamos trabajando directamente en la terminal, lo que en un principio me pareció un poco complicado.
 
