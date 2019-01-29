@@ -12,7 +12,7 @@ Compilar y correr xv6
 Un programa compuesto de código fuente.
 Un sistema operativo que esta compuesto de un kernel y de aplicaciones del sistema.
 
-## url del commit:
+## Url del commit:
 https://github.com/Luisantonio42/so-gp1/commit/3b17ca22cfcf7091790107481a297e5a286b9afb
 
 ## Que aprendí:
