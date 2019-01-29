@@ -17,7 +17,7 @@ git
 + Es el bit para acceder al hardware
 + Se prende cuando se ejecuta el kernel
 
-3)Interrupciones
+3) Interrupciones
 + Como el hw interactúa con el cpu
 
 4) Interrupciones vía software (trap)
