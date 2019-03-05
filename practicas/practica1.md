@@ -24,5 +24,7 @@ git
 + Software comunicar con el kernel, SFT->CPU->KERNEL
 
 ## Url del commit
+https://github.com/Luisantonio42/so-gp1/commit/afe8a96b7fecaaac985b823f6b1f97e8fbc23c42
 
 ## Que aprendi
+Aprendí el proceso necesario para poder agregar las funciones de apagar y reiniciar a nuestro sistema operativo. El cual fue un poco confuso debido a que necesitabamos de crear varias funciones, declarar su funcionamiento y hacerlas visibles para que se pudieran ejecutar. Sin embargo el proceso fue muy interesante. Me gusto mucho el poder realizar de manera satisfactoria el cometido.
