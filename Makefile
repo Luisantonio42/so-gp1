@@ -165,7 +165,7 @@ mkfs: mkfs.c fs.h
 # http://www.gnu.org/software/make/manual/html_node/Chained-Rules.html
 .PRECIOUS: %.o
 
-# Programas que hay.
+# Programs that we have.
 UPROGS=\
 	_cat\
 	_echo\
@@ -184,6 +184,8 @@ UPROGS=\
 	_zombie\
 	_apagar\
 	_reiniciar\
+	_chpriority\
+	_lspriority\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
