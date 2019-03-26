@@ -186,6 +186,7 @@ UPROGS=\
 	_reiniciar\
 	_chpriority\
 	_lspriority\
+	_dm\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
