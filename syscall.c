@@ -160,8 +160,8 @@ syscall(void)
 	  "sys_link",
 	  "sys_mkdir",
 	  "sys_close",
-	  "sys_apagar",
-	  "sys_reiniciar",
+	  "sys_shutdown",
+	  "sys_reboot",
 	  "sys_setpriority",
 	  "sys_getpriority",
 	};
