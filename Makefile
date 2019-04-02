@@ -187,7 +187,6 @@ UPROGS=\
 	_chpriority\
 	_lspriority\
 	_dm\
-	_date\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
