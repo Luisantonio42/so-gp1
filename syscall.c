@@ -108,6 +108,7 @@ extern int sys_reboot(void);
 extern int sys_getpriority(void);
 extern int sys_setpriority(void);
 extern int sys_date(void);
+extern int sys_date(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -135,11 +136,13 @@ static int (*syscalls[])(void) = {
 [SYS_reboot]	sys_reboot,
 [SYS_getpriority]	sys_setpriority,
 [SYS_setpriority]	sys_getpriority,
+[SYS_date]   sys_date,
 };
 
 void
 syscall(void)
 {
+	/*
 	  char* llamadasSistema[] = {
 	  "exit",
 	  "wait",
@@ -167,6 +170,7 @@ syscall(void)
 	  "getpriority",
 	  "date",
 	};
+	*/
 	
   int num;
   struct proc *curproc = myproc();
@@ -174,7 +178,7 @@ syscall(void)
   num = curproc->tf->eax;
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
     curproc->tf->eax = syscalls[num]();
-	  cprintf("\n%s->%d\n",llamadasSistema[num-1],num);
+	  //cprintf("\n%s->%d\n",llamadasSistema[num-1],num);
 	  
   } else {
     cprintf("%d %s: unknown sys call %d\n",
