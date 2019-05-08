@@ -29,3 +29,7 @@ Los cambios en el bloque se guardan automaticamente
 Aprendí como podría hacer un editor de texto. Yo diciendole al programa que caracter quiero cambiar con el índice y darle el caracter.
 
 # Url del commit
+- primera parte:
+https://github.com/Luisantonio42/so-gp1/commit/56bf7540e841729f8bd481083a0435dc5dabd265
+
+- segunda parte:
