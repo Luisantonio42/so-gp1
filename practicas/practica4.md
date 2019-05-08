@@ -33,3 +33,4 @@ Aprendí como podría hacer un editor de texto. Yo diciendole al programa que ca
 https://github.com/Luisantonio42/so-gp1/commit/56bf7540e841729f8bd481083a0435dc5dabd265
 
 - segunda parte:
+https://github.com/Luisantonio42/so-gp1/commit/bfa222c3f8e0bee24375384141c0bdad0d1cd2d9
